@@ -1,5 +1,5 @@
-# This is a demonstration on using GRPO styled reinforcement learning to fine tune a model 
-[Unsloth's implementation](https://docs.unsloth.ai/basics/reasoning-grpo-and-rl) has made this incredibly simple. By using both PEFT, LORA (Q4) and pre-trained reasoning models, you can fine tune it for any reasonably difficult task for the model size. 
+# Fine tuning a 1.5B model on a single 4090 GPU
+This is a demonstration on using GRPO styled reinforcement learning to fine tune a model. [Unsloth's implementation](https://docs.unsloth.ai/basics/reasoning-grpo-and-rl) has made this incredibly simple. By using both PEFT, LORA (Q4) and pre-trained reasoning models, you can fine tune it for any reasonably difficult task for the model size. 
 
 In this demo I fine tuned it on GSM8k (a dataset it has seen before) but fine tuned it for a different answering format.
 
