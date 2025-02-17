@@ -3,7 +3,7 @@
 
 In this demo I fine tuned it on GSM8k (a dataset it has seen before) but fine tuned it for a different answering format.
 
-This was done on a single 4090 over ¬30 hours. Results in 2500 steps (before I got kicked off UCL GPUs :pensive:):
+This was done on a single 4090 over ¬30 hours. Results in 2500 steps (before I got kicked off UCL GPUs 🥹):
 
 ![results](results/results.png)
 
@@ -33,6 +33,7 @@ huggingface login # note 2
 ### Eval
 
 ```python continued_distilled_grpo_test.py```
+
 
 ## Uploading models
 
