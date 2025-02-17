@@ -7,7 +7,11 @@ This was done on a single 4090 over ¬30 hours. Results in 2500 steps (before I 
 
 ![results](results/results.png)
 
+### Training Log: 
+[<img src="https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg">](https://api.wandb.ai/links/yeokch/rsjugy36),
 
+### Huggingface Checkpoint Link
+[<img src="https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-md.svg">](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-lg.svg)
 
 ## Installation
 ```
@@ -30,8 +34,6 @@ huggingface login # note 2
 
 ```python continued_distilled_grpo_test.py```
 
-## Pretrained checkpoint
-🤗 [yeok/DeepScaleR-1.5B-Preview-GSM8K-Demo](https://huggingface.co/yeok/DeepScaleR-1.5B-Preview-GSM8K-Demo)
 
 ## Uploading models
 
